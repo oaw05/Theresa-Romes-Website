@@ -1,0 +1,357 @@
+/* ------- CSS für die Webseite von Theresa Maria Romes ------- */
+/* ------- Erstellt von Andrea Reidel ------------------------- */
+/* ------- Erstellt im 03/2016 -------------------------------- */
+
+body {
+	font-family: 'Istok Web', 'Open Sans', Calibri, sans-serif;
+	font-size: 12pt;
+	color: #555555;
+	margin-bottom: 0px;
+	margin-top: -1px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 1024px;
+	height: 99.9vh;
+	border: 1px solid grey;
+}
+
+body a {
+	text-decoration: none;
+}
+
+h1{
+	padding: 20px 0px 0px;
+	margin: 0px 0px 0px -50px;
+	font-family: 'Parisienne', 'Monotype Corsiva', Georgia, serif;
+	font-style: italic;
+	font-size: 35pt;
+	color: #555555;
+}
+
+h2 {
+	padding: 0px 0px 15px 390px;
+	margin: 0px;
+	font-size: 18pt;
+	color: #C18477;
+}
+
+h3 {
+	font-family: 'Parisienne', 'Monotype Corsiva', Georgia, serif;
+	color: #555555;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: dotted;
+	border: none;
+	border-top: 1px dotted #555555;
+}
+
+.container {
+	float: left;
+	display: inline;
+	position: relative;
+	width: inherit;
+}
+
+aside {
+	width: 30%;
+	float: left;
+}
+
+.textur_background {
+	height: 99.9vh;
+	width: 100%;
+	border: 1px solid grey;
+	margin-left: -1px;
+	margin-top: -1px;
+	margin-bottom: -7px; /* entfernt mysteriösen Abstand am unteren Rand */
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+	width: inherit;
+	height: 100%;
+}
+
+.vertical {
+	float: right;
+}
+
+.navigation {
+	font-family: 'Istok Web', 'Parisienne', 'Monotype Corsiva', Georgia, serif;
+	font-size: 16px;
+	float: right;
+	margin-top: 130px;
+}
+
+.vertical > ul {
+	padding-left: 0px;
+	width: 40%;
+	margin-top: 30px;
+}
+
+.vertical > ul > li {
+    display: block;
+	padding-left: 30px;
+}
+
+.active {
+	color: white !important;
+	background-color: grey !important;
+	opacity: 0.7 !important;
+}
+
+.vertical > ul > li > a {
+    /* color: #1A1A1A; */
+	color: black;
+	width: 90px;
+	height: 24px;
+	background-color: white;
+	display: block;
+	padding-left: 10px;
+	margin-top: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	opacity: 0.6;
+}
+
+.nav_bild {
+	border: 1px solid grey;
+	margin-top: 130px;
+	margin-left: -1px;
+	position: absolute;
+	width: inherit;
+	height: auto;
+}
+
+.nav_bild_container {
+	width: inherit;
+}
+
+.right_column {
+	float: right;
+	width: 69.9%;
+	height: 100%;
+}
+
+.header_link {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #F4EDEC;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	text-align: center;
+	height: 130px;
+	width: 100%;
+	float: right;
+	margin-right: -1px;
+}
+
+.inhalt {
+	position: relative;
+	display: inline;
+	height: 77vh;
+	width: 88%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	overflow: auto;
+	float: right;
+}
+
+.welcome {
+	width: 53.8%;
+	position: absolute;
+}
+
+.aside-right {
+	float: right;
+	width: 29%;
+}
+
+.aside-right a {
+	color: #555555;
+}
+
+.aside-right a:hover {
+	color: #C18477;
+}
+
+
+/* ----- Tab Menü ---------------------------------- */
+
+.tabmenü {
+	width: 100%;
+	position: relative;
+}
+
+.tabs_active {
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 35px;
+	cursor: default;
+	font-weight: bold;
+	color: #C18477;
+}
+
+.tabs_passive {
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 35px;
+	cursor: pointer;
+	font-weight: normal;
+	color: #555555;
+}
+
+.boxen {
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: hidden;
+}
+
+/* ------------------------------------------------ */
+
+
+table {
+	height: inherit;
+	border-collapse:collapse;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+.table_repertoire {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.table_body {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+th {
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 33%;
+	vertical-align: top;
+	padding-right: 15px;
+}
+
+.lieder {
+	margin-top: 30px;
+}
+
+.presse_table_rechts {
+	width: 70%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.presse_table_links {
+	width: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.kalender_table_links {
+	width: 30%;
+}
+
+.kalender_table_mitte {
+	width: 40%;
+}
+
+.kalender_table_rechts {
+	width: 30%;
+}
+
+.impressum_rechts {
+	width: 55%;
+	float: right;
+}
+
+.impressum_links {
+	width: 30%;
+}
+
+.div_kuenstlerfoto {
+	margin-top: 25px;
+	height: 160px;
+}
+
+.div_kuenstlerfoto  > * {
+	vertical-align: top;
+	width: auto;
+	padding-right: 40px;
+}
+
+.kuenstlerbild {
+	width: auto;
+	height: 100px;
+	padding-right: 0px;
+	margin-bottom: 25px;
+	border: 1px solid grey;
+}
+
+.galerie {
+	width: inherit;
+	position: relative;
+	float: left;
+}
+
+.galerie_ausschnitt {
+   width: 180px;
+   height: 180px;
+   overflow: hidden;
+   border: 1px solid grey;
+   text-align: center;
+   float: left;
+}
+
+.galerie_abstand {
+	margin-right: 33px;
+	margin-bottom: 33px;
+}
+
+.audio {
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
