@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿KOMPONIST
 TITEL
 WERKVERZEICHNIS
@@ -37,3 +38,44 @@ Op. Post. 129 D965
 Anton Webern
 Vier Lieder für Stimme und Klavier
 Op.12
+=======
+﻿KOMPONIST
+TITEL
+WERKVERZEICHNIS
+
+Johannes Brahms
+Liebesliederwalzer
+Op.52
+
+Robert Gerhard
+Cantares
+&nbsp;
+
+Wilhelm Killmayr
+Sapphische Strophen
+&nbsp;
+
+Robert Schumann
+Myrthen-Auswahl
+Op.25
+
+&nbsp;
+Sechs Gesänge nach Gedichten von Nikolaus Lenau und Requiem
+Op.90
+
+&nbsp;
+Sechs Gesänge
+Op.107
+
+&nbsp;
+Lieder der Mignon und Pheline aus Wilhelm Meister von Goethe
+Op.98a
+
+Franz Schubert
+Der Hirt auf dem Felsen
+Op. Post. 129 D965
+
+Anton Webern
+Vier Lieder für Stimme und Klavier
+Op.12
+>>>>>>> refs/remotes/origin/master
