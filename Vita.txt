@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Die Sopranistin Theresa Maria Romes wurde 1992 in Lauingen geboren. <br><br>
 
 Mit 14 Jahren begann sie ihre Gesangsausbildung bei Birgit Sehon an der Städtischen Musikschule Heidenheim. 
@@ -27,33 +26,3 @@ Martin G. Berger und Keno Weber. Aufführungen fanden statt in Hannover, Springe
 Stand Mai 2016
 
 
-=======
-Die Sopranistin Theresa Maria Romes wurde 1992 in Lauingen geboren. <br><br>
-
-Mit 14 Jahren begann sie ihre Gesangsausbildung bei Birgit Sehon an der Städtischen Musikschule Heidenheim. 
-Seit 2012 studiert sie bei Prof. Klesie Kelly und Monika Bürgener an der Hochschule für Musik Würzburg.
-Seit 2010 ist sie Stipendiatin der Hermine-Klenz-Stiftung in Giengen. 
-2011 gewann Theresa Romes beim Wettbewerb Jugend Musiziert einen Dritten Preis auf Bundesebene. 
-Im Dezember 2013 gewann sie die Juniorkategorie des Armin-Knab-Lied-Wettbewerbs in Würzburg und im darauf folgenden 
-Jahr wählte die Bruno-Frey-Stiftung die junge Sopranistin als Stipendiatin aus. Letzten Herbst wurde ihr zudem das 
-Deutschland-Stipendium verliehen.<br><br>
-
-Theresa Romes hatte schon zahlreiche konzertante Auftritte und Liederabende. So gab sie einen Liederabend mit 
-Gerold Huber und trat als Solistin des Bach-Kantaten-Clubs Würzburg, des Hochschulchors und -orchesters der Hochschule 
-für Musik Würzburg und des Bachchors und –orchesters Hannover unter der musikalischen Leitung von Jörg Straube auf. 
-Des Weiteren war sie beim Würmtaler Musikfestival und beim Heidelberger Frühling zu hören.<br><br>
-
-Seit November 2015 bilden Theresa Romes und die Pianistin Esthea Kruger ein festes Liedduo. Gemeinsam erarbeiten die 
-jungen Musikerinnen ein vielseitiges Repertoire und geben zahlreiche Konzerte  in ganz Deutschland.<br><br>
-
-Bei Opernproduktionen der Hochschule war sie u.a. in <i>Così fan tutte</i> von W.A. Mozart, in <i>L´Orfeo</i> von Luigi Rossi 
-und in <i>Das schlaue Füchslein</i> von Bedřich Janáček zu erleben. Zuletzt gab sie ihr Debut als Mrs. Grose in <i>The Turn Of 
-The Screw</i> von Benjamin Britten und als Gärtnerin Sandrina in Mozarts <i>La finta giardiniera</i>. Sie wirkte zudem bei den 
-Frankenfestspielen in Röttingen in Franz Léhars Operette <i>Paganini</i> unter der Leitung von Pavel Fieber und Walter Lochmann mit.<br>
-Im Herbst 2015 sang Theresa Romes die Rolle der Belinda in <i>Dido And Aeneas</i> von Henry Purcell unter der Leitung von Karsten Barthold, 
-Martin G. Berger und Keno Weber. Aufführungen fanden statt in Hannover, Springe und Leer.<br><br>
-
-Stand Mai 2016
-
-
->>>>>>> refs/remotes/origin/master

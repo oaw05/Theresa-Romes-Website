@@ -1,6 +1,6 @@
-/* ------- CSS fÃ¼r die Webseite von Theresa Maria Romes ------- */
-/* ------- Erstellt von Andrea Reidel ------------------------- */
-/* ------- Erstellt im 03/2016 -------------------------------- */
+/* ------- CSS für die mobile Webseite von Theresa Maria Romes ------- */
+/* ------- Erstellt von Andrea Reidel -------------------------------- */
+/* ------- Erstellt im 06/2016 --------------------------------------- */
 
 @font-face {
 	font-family: 'Tangerine'; src: url('font/tangerine/Tangerine_Regular.ttf') format('truetype');
@@ -14,9 +14,11 @@ body {
 	margin-top: -1px;
 	margin-left: auto;
     margin-right: auto;
-	width: 950px;
-	height: 99.9vh;
-	border: 1px solid grey;
+	width: 100%;
+	height: auto;
+	border: none;
+	overflow-y: visible;
+	overflow-x: no-content;
 }
 
 body a {
@@ -24,19 +26,37 @@ body a {
 }
 
 h1{
-	padding: 25px 0px 0px 0px;    /* padding: oben rechts unten links */
-	margin: 0px 0px -10px -50px;
+	padding: 4% 0px 0px 0px;    /* padding: oben rechts unten links */
+	margin: 0px 0px 0px 0px;
 	font-family: 'Tangerine', 'Monotype Corsiva', Georgia, serif;
 	/* font-style: italic; */
-	font-size: 48pt;
+	font-size: 38pt;
 	color: #555555;
 }
 
 h2 {
-	padding: 0px 0px 15px 390px;
+	padding: 0px 0px 2% 60%;
 	margin: 0px;
 	font-size: 14pt;
 	color: #C18477;
+}
+
+@media (max-width: 400px) {
+	h1{
+		padding: 4% 0px 0px 0px;    /* padding: oben rechts unten links */
+		margin: 0px 0px 0px 0px;
+		font-family: 'Tangerine', 'Monotype Corsiva', Georgia, serif;
+		/* font-style: italic; */
+		font-size: 30pt;
+		color: #555555;
+	}
+	
+	h2 {
+		padding: 0px 0px 2% 60%;
+		margin: 0px;
+		font-size: 12pt;
+		color: #C18477;
+	}
 }
 
 h3 {
@@ -60,42 +80,30 @@ hr {
 }
 
 .container {
-	float: left;
-	display: inline;
-	position: relative;
+	/* float: left; */
+	/* display: inline;
+	position: relative; */
 	width: inherit;
-}
-
-aside {
-	width: 30%;
-	float: left;
-}
-
-.textur_background {
-	height: 99.9vh;
-	width: 100%;
-	border: 1px solid grey;
-	margin-left: -1px;
-	margin-top: -1px;
-	margin-bottom: -7px; /* entfernt mysteriÃ¶sen Abstand am unteren Rand */
 }
 
 .background {
-	position: absolute;
-	z-index: -1;
-	width: inherit;
-	height: 100%;
+	display: none;
+}
+
+.nav_bild_container {
+	display: none;
 }
 
 .vertical {
-	float: right;
+	float: left;
 }
 
 .navigation {
 	font-family: 'Istok Web', 'Monotype Corsiva', Calibri, sans-serif;
 	font-size: 16px;
 	float: right;
-	margin-top: 130px;
+/* 	margin-top: 130px; */
+	display: none;
 }
 
 .vertical > ul {
@@ -107,12 +115,6 @@ aside {
 .vertical > ul > li {
     display: block;
 	padding-left: 30px;
-}
-
-.active {
-	color: white !important;
-	background-color: grey !important;
-	opacity: 0.7 !important;
 }
 
 .vertical > ul > li > a {
@@ -129,25 +131,6 @@ aside {
 	opacity: 0.6;
 }
 
-.nav_bild {
-	border: 1px solid grey;
-	margin-top: 130px;
-	margin-left: -1px;
-	position: absolute;
-	width: inherit;
-	height: auto;
-}
-
-.nav_bild_container {
-	width: inherit;
-}
-
-.right_column {
-	float: right;
-	width: 69.9%;
-	height: 100%;
-}
-
 .header_link {
 	text-decoration: none;
 }
@@ -155,62 +138,38 @@ aside {
 .header {
 	background-color: #F5E8E5;
 	border-bottom: 1px solid grey;
-	border-right: 1px solid grey;
 	text-align: center;
-	height: 130px;
+	height: 10%;
 	width: 100%;
-	float: right;
-	margin-right: -1px;
 }
 
 .inhalt {
-	position: relative;
-	display: inline;
-	height: 77vh;
+	/* position: relative;
+	display: inline; */
 	width: 88%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-right: 40px;
 	padding-left: 40px;
-	overflow: auto;
-	float: right;
 }
 
 .inhalt_impressum {
-	position: relative;
-	display: inline;
-	height: 77vh;
+	/* position: relative;
+	display: inline; */
 	width: 88%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-right: 40px;
 	padding-left: 40px;
-	overflow: auto;
-	float: left;
-}
-
-.welcome {
-	width: 53.8%;
-	position: absolute;
 }
 
 .aside-right {
-	float: right;
-	width: 29%;
+	margin-top: 50px;
 }
 
-.aside-right a {
-	color: #555555;
-}
+/* ----- Tab Menü ---------------------------------- */
 
-.aside-right a:hover {
-	color: #C18477;
-}
-
-
-/* ----- Tab MenÃ¼ ---------------------------------- */
-
-.tabmenÃ¼ {
+.tabmenü {
 	width: 100%;
 	position: relative;
 }
@@ -244,87 +203,17 @@ aside {
 
 /* ------------------------------------------------ */
 
-
-table {
-	height: inherit;
-	border-collapse:collapse;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-}
-
-.table_repertoire {
-	width: 100%;
-	margin-top: 20px;
-}
-
-.table_body {
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-}
-
-th {
-	text-align: left;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	padding-bottom: 10px;
-}
-
-td {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 33%;
-	vertical-align: top;
-	padding-right: 15px;
-}
-
-.lieder {
-	margin-top: 30px;
-}
-
-.presse_table_rechts {
-	width: 70%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.presse_table_links {
-	width: 30%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.kalender_table_links {
-	width: 25%;
-}
-
-.kalender_table_mitte {
-	width: 40%;
-}
-
-.kalender_table_rechts {
-	width: 35%;
-}
-
-.impressum_rechts {
-	width: 55%;
-	float: right;
-}
-
-.impressum_links {
-	width: 30%;
-	float: left;
-}
-
 .div_kuenstlerfoto {
 	margin-top: 30px;
-	margin-bottom: -10px;
-	height: 160px;
+	margin-bottom: 40px;
+	height: 60px;
+	
 }
 
 .div_kuenstlerfoto  > * {
 	vertical-align: top;
 	width: auto;
-	padding-right: 40px;
+	padding-right: 30px;
 }
 
 .kuenstlerbild {
@@ -336,14 +225,14 @@ td {
 }
 
 .galerie {
-	width: inherit;
+	width: 100%;
 	position: relative;
 	float: left;
 }
 
 .galerie_ausschnitt {
-   width: 170px;
-   height: 170px;
+   width: 45%;
+   height: 10%;
    overflow: hidden;
    border: 1px solid grey;
    text-align: center;
@@ -351,22 +240,18 @@ td {
 }
 
 .galerie_abstand {
-	margin-right: 24px;
-	margin-bottom: 24px;
+	margin-right: 5%;
+	margin-bottom: 5%;
 }
 
 .audio {
 	margin-top: 15px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 .audio-beschreibung {
 	margin-top: 25px;
 }
-
-
-
-
 
 
 

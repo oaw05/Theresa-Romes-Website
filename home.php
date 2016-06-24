@@ -7,11 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
 		<!-- CSS einbinden -->
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" media="(min-width: 950px)" type="text/css">
+		<link href="style_mobile.css" rel="stylesheet" media="(max-width: 950px)" type="text/css">
 		
 		<!-- Google Fonts einbinden -->
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic|Istok+Web:400,400italic,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Satisfy|Playball|Great+Vibes|Parisienne' rel='stylesheet' type='text/css'>
+	
 	</head>
 	<body>
 		<div class="container">
@@ -47,6 +48,7 @@
 						</li>
 					</ul>
 				</nav>
+				
 				<!-- Textur unten -->
 				<div class="background">
 					<img src="img/Background3.png" alt="textur_unten" class="textur_background">

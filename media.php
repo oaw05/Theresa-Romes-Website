@@ -7,7 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		
 		<!-- CSS einbinden -->
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" media="(min-width: 950px)" type="text/css">
+		<link href="style_mobile.css" rel="stylesheet" media="(max-width: 950px)" type="text/css">
 		
 		<!-- Google Fonts einbinden -->
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic|Istok+Web:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -157,43 +158,48 @@
 								<!-- zu galerie_abstand: bei 3x3 Bildern besitzen jeweils nur die ersten beiden Bilder einer Zeile diese Klasse -->
 								<div class="galerie">
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/AusschnittPaganini.JPG" data-lightbox="galerie" data-title="Ausschnitt Paganini">
-											<img id="01" src="img/Galerie/AusschnittPaganini.JPG" onLoad="bildgroesse('01')" alt=""/>
+										<a href="img/Galerie/Die Heirat.JPG" data-lightbox="galerie" data-title="Die Heirat (Bohuslav Martinu) | Dunjaschka | 2013 | Fotograf: Hanna Romes">
+											<img id="01" src="img/Galerie/Die heirat.JPG" onLoad="bildgroesse('01')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/Dido And Aeneas.JPG" data-lightbox="galerie" data-title="Dido And Aeneas">
-											<img id="02" src="img/Galerie/Dido And Aeneas.JPG" onLoad="bildgroesse('02')" alt=""/>
+										<a href="img/Galerie/The Turn Of The Screw.jpg" data-lightbox="galerie" data-title="The Turn Of The Screw (Benjamin Britten) | Mrs Grose | 2015 | Fotograf: Andreas Herold">
+											<img id="02" src="img/Galerie/The Turn Of The Screw.jpg" onLoad="bildgroesse('02')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt">
-										<a href="img/Galerie/Dido And Aeneas2.JPG" data-lightbox="galerie" data-title="Ausschnitt Paganini">
-											<img id="03" src="img/Galerie/Dido And Aeneas2.JPG" onLoad="bildgroesse('03')" alt=""/>
+										<a href="img/Galerie/AusschnittPaganini.JPG" data-lightbox="galerie" data-title="Paganini (Franz Lehár) | Chor | 2015 | Fotograf: Michael Gura">
+											<img id="03" src="img/Galerie/AusschnittPaganini.JPG" onLoad="bildgroesse('03')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/Die Heirat.JPG" data-lightbox="galerie" data-title="Ausschnitt Die Heirat">
-											<img id="04" src="img/Galerie/Die heirat.JPG" onLoad="bildgroesse('04')" alt=""/>
+										<a href="img/Galerie/La fita giardiniera.JPG" data-lightbox="galerie" data-title="La finta giardiniera (W.A. Mozart) | Sandrina | 2015 | Fotograf: Andreas Herold">
+											<img id="04" src="img/Galerie/La fita giardiniera.JPG" onLoad="bildgroesse('04')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/La finta giardiniera.JPG" data-lightbox="galerie" data-title="Ausschnitt La finta giardiniera">
+										<a href="img/Galerie/La finta giardiniera.JPG" data-lightbox="galerie" data-title="La finta giardiniera (W.A. Mozart) | Sandrina | 2015 | Fotograf: Andreas Herold">
 											<img id="05" src="img/Galerie/La finta giardiniera.JPG" onLoad="bildgroesse('05')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt">
-										<a href="img/Galerie/La fita giardiniera.JPG" data-lightbox="galerie" data-title="Ausschnitt La finta giardiniera">
-											<img id="06" src="img/Galerie/La fita giardiniera.JPG" onLoad="bildgroesse('06')" alt=""/>
+										<a href="img/Galerie/Oktober 2015.jpg" data-lightbox="galerie" data-title="Theresa Romes | 2015 | Fotograf: Daniel M.G. Weiß">
+											<img id="06" src="img/Galerie/Oktober 2015.jpg" onLoad="bildgroesse('06')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/Oktober 2015.jpg" data-lightbox="galerie" data-title="Oktober 2015">
-											<img id="07" src="img/Galerie/Oktober 2015.jpg" onLoad="bildgroesse('07')" alt=""/>
+										<a href="img/Galerie/Dido And Aeneas2.JPG" data-lightbox="galerie" data-title="Dido And Aeneas (Henry Purcell) | Belinda | 2015 | Fotograf: Karsten Barthold">
+											<img id="07" src="img/Galerie/Dido And Aeneas2.JPG" onLoad="bildgroesse('07')" alt=""/>
 										</a>
 									</div>
 									<div class="galerie_ausschnitt galerie_abstand">
-										<a href="img/Galerie/The Turn Of The Screw.jpg" data-lightbox="galerie" data-title="Ausschnitt The Turn Of The Screw">
-											<img id="08" src="img/Galerie/The Turn Of The Screw.jpg" onLoad="bildgroesse('08')" alt=""/>
+										<a href="img/Galerie/Dido And Aeneas.JPG" data-lightbox="galerie" data-title="Dido And Aeneas (Henry Purcell) | Belinda | 2015 | Fotograf: Karsten Barthold">
+											<img id="08" src="img/Galerie/Dido And Aeneas.JPG" onLoad="bildgroesse('08')" alt=""/>
+										</a>
+									</div>
+									<div class="galerie_ausschnitt">
+										<a href="img/Galerie/Zwickau.JPG" data-lightbox="galerie" data-title="Robert-Schumann-Wettbewerb Zwickau | mit Esthea Kruger | 2016 | Fotograf: Helge Gerischer">
+											<img id="09" src="img/Galerie/Zwickau.JPG" onLoad="bildgroesse('09')" alt=""/>
 										</a>
 									</div>	
 								</div>
