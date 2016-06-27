@@ -91,36 +91,36 @@
 								
 								echo "<tr class='table_body'>";
 								if (strcmp($kalender[$i],"&nbsp;")-2 !== 0) {
-									echo "<td class='kalender_table_links'>".$kalender[$i]."</td>";
+									echo "<td class='kalender_table_links'>".$kalender[$i]."</td>"; /* Datum */
 								} else {
 									echo "<td class='kalender_table_links'></td>";
 								}
 								if (strcmp($kalender[$i+1],"&nbsp;")-2 !== 0) {
-									echo "<td class='kalender_table_mitte'><b>".$kalender[$i+1]."</b><br>";
+									echo "<td class='kalender_table_mitte'><b>".$kalender[$i+1]."</b><br>"; /* Titel */
 								} else {
 									echo "<td class='kalender_table_mitte'><br>";
 								}
-								if (strcmp($kalender[$i+2],"&nbsp;")-2 !== 0) {
+								if (strcmp($kalender[$i+2],"&nbsp;")-2 !== 0) { /* Beschreibung */
 									echo $kalender[$i+2]."<br>";
 								} else {
 									echo "";
 								}
-								if (strcmp($kalender[$i+3],"&nbsp;")-2 !== 0) {
+								if (strcmp($kalender[$i+3],"&nbsp;")-2 !== 0) { /* mit Person X */
 									echo $kalender[$i+3]."</td>";
 								} else {
 									echo "</td>";
 								}
-								if (strcmp($kalender[$i+4],"&nbsp;")-2 !== 0) {
+								if (strcmp($kalender[$i+4],"&nbsp;")-2 !== 0) { /* Uhrzeit */
 									echo "<td class='kalender_table_rechts'>".$kalender[$i+4]."<br>";
 								} else {
 									echo "<td class='kalender_table_rechts'>";
 								}
-								if (strcmp($kalender[$i+5],"&nbsp;")-2 !== 0) {
+								if (strcmp($kalender[$i+5],"&nbsp;")-2 !== 0) { /* Stadt */
 									echo $kalender[$i+5]."<br>";
 								} else {
 									echo "";
 								}
-								if (strcmp($kalender[$i+6],"&nbsp;")-2 !== 0) {
+								if (strcmp($kalender[$i+6],"&nbsp;")-2 !== 0) { /* Location */
 									echo $kalender[$i+6]."</td>";
 								} else {
 									echo "</td>";
